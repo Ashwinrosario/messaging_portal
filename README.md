@@ -13,4 +13,6 @@ The `sendSMS.js` file contains a simple script to send an SMS message using the 
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=your_twilio_phone_number
-TO_NUMBER=recipient_phone_number
+TO_NUMBER=recipient_phone_number 
+```
+## Note: For trial accounts, TO_NUMBER must be a verified number. Once upgraded, this can be any valid phone number and not kept in ENV.it can be used in the api or in the function itself.
